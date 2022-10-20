@@ -6,7 +6,7 @@ const TimeAgo = ({timeStamp}) => {
     let timeAgo = " "
     if (timeStamp){
         const date = parseISO(timeStamp)
-        const timeStamp  = formatDistanceToNow(date)
+        const timePeriod  = formatDistanceToNow(date)
         timeAgo =  `${timePeriod} ago`
     }
   return (
