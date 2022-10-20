@@ -4,7 +4,7 @@ import { reactionAdded } from "./postsSlice"
 const reactionEmoji = {
     thumbUP:"👍" ,
     wow: "😮",
-    love: "❤️",
+    heart: "❤️",
     rocket: "🚀"
 }
 
@@ -20,6 +20,8 @@ const ReactionButton = ({ post }) => {
     </button>
   )
 })
+
+
 return <div>{reactionButtons}</div>
 }
 export default ReactionButton

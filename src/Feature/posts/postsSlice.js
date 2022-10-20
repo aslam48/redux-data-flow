@@ -5,28 +5,28 @@ import {sub} from "date-fns"
 
 const initialState = [
     {id:1,
-    title:"learning Redux Toolkit", 
-    content: "i have to eat",
+    title:" Redux is is cool", 
+    content: "i have to code",
     date: sub(new Date(), {minutes: 10}).toISOString(),
     reactions: {
-        thumbUP:0,
-        wow:0,
-        heart:0,
-        rocket:0,
-        coffee:0,
+        thumbUP:13,
+        wow:3,
+        heart:9,
+        rocket:8,
+       
     }
 },
 
 
     {id:2,
-     title:"aslam is good just give him time", 
-     content: "god will bless time",
+     title:"I need coffee", 
+     content: "i will drink it",
     date: sub(new Date(), {minutes: 5}).toISOString(),
     reactions: {
-        thumbUP:0,
-        wow:0,
-        love:0,
-        rocket:0,
+        thumbUP:3,
+        wow:3,
+        heart:3,
+        rocket:9,
                    
     }
     }
